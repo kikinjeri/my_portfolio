@@ -1,8 +1,78 @@
 
-body{
-    background-color: lightgrey;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
 }
 
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: lightgray;
+  }
 
+  header {
+    padding: 35px 35px;
+    background-color: rgb(95, 92, 92);
+  }
+  
+header h1 {
+    font-weight: bold;
+    font-size:36px;
+    color: lightgray;
+    margin: 0;
+}
 
+header a{
+    text-decoration: none;
+    color: lightgray;
+}
+header nav{
+    float: right;
+    margin: 7px 0;
+}
     
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36x;
+    color: lightgray;
+    margin: 0;
+    display: inline;
+}
+
+section{
+    padding: 60px;
+}
+
+section{
+    padding: 60;
+    background-image: url("../images/hero-bg.jpg");
+}
+footer {
+    background: rgb(95, 92, 92);
+    width: 100%;
+    padding: 40px 35px;
+}
+footer h2 {
+    display: inline;
+    color: lightgray;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+footer a {
+    color: lightgray;
+}
+    /* change to light gray later */
+
